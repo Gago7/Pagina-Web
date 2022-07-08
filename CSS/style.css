@@ -1,6 +1,6 @@
 .bg-img {
   /* The image used */
-  background-image: url("https://gago7.github.io/Pagina-Web/fondo-nav.jpg");
+  background-image: url("https://gago7.github.io/Pagina-Web/Image/fondo-nav.jpg");
 
   min-height: 75px;
 
@@ -43,7 +43,7 @@
 
 .bg-img-section-index {
   /* The image used */
-  background-image: url("https://gago7.github.io/Pagina-Web/fondo-section-index.jpg");
+  background-image: url("https://gago7.github.io/Pagina-Web/Image/fondo-section-index.jpg");
 
   min-height: 695px;
 
@@ -58,7 +58,7 @@
 
 .bg-img-section {
   /* The image used */
-  background-image: url("https://gago7.github.io/Pagina-Web/fondo-section.jpg");
+  background-image: url("https://gago7.github.io/Pagina-Web/Image/fondo-section.jpg");
 
   min-height: 695px;
 
