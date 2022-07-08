@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Pagina Web de presentación">
+        <meta name="author" content="Gabriel Rodrigo Quispe Pocohuanca">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Titulo de La pagina</title>
+        <link rel="stylesheet" href="CSS/style-2.css">
+    </head>
+    <body>
+        <header>
+          <nav>
+            <div class="bg-img">
+              <div class="container">
+                <div class="topnav">
+                  <a href="index.html">Inicio</a>
+                  <a href="habilidades.html">Habilidades</a>
+                  <a href="proyectos.html">Proyectos</a>
+                  <a href="sobre-mi.html">Sobre Mi</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <section>
+          <div class="bg-img-section">
+            <div class="heading-proyectos">
+              <h2>Proyectos</h2>
+              <p>Portafolio:</p>
+            </div>
+            
+            <div class="content-proyectos">
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Covid-19')" id="defaultOpen">Covid-19</button>
+                <button class="tablinks" onclick="openCity(event, 'Deportes')">Deporte</button>
+                <button class="tablinks" onclick="openCity(event, 'Entretenimiento')">Entretenimiento</button>
+              </div>
+  
+              <div id="Covid-19" class="tabcontent">
+                <h3>Covid-19</h3>
+                <p>Analisis de Datos relacionados con la Covid-19.</p>
+                <button class="accordion">Mundo</button>
+                <div class="panel">
+                  <p>Analisis de datos del Covid-19 en el mundo.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Covid-19/Mundo" target="_blank">Más Información</a> 
+                </div>
+
+                <button class="accordion">Estados Unidos</button>
+                <div class="panel">
+                  <p>Analisis de datos del Covid-19 en Estados Unidos.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Covid-19/USA" target="_blank">Más Información</a> 
+                </div>
+
+                <button class="accordion">Italia</button>
+                <div class="panel">
+                  <p>Analisis de datos del Covid-19 en Italia.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Futbol/Italia" target="_blank">Más Información</a> 
+                </div>
+              </div>
+  
+              <div id="Deportes" class="tabcontent">
+                <h3>Deportes</h3>
+                <p>Analisis de Datos relacionados con los Deportes.</p> 
+                <button class="accordion">Analisis EPL(Premier League)</button>
+                <div class="panel">
+                  <p>Analisis de datos de la Premier League Temporada 2020-2021.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Futbol/Analisis EPL(Premier League)" target="_blank">Más Información</a>  
+                </div>
+
+                <button class="accordion">Analisis FIFA(Clubs)</button>
+                <div class="panel">
+                  <p>Analisis de datos de todos los clubs inscritos a la FIFA.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Futbol/Analisis FIFA(Clubs)" target="_blank">Más Información</a> 
+                </div>
+
+                <button class="accordion">Analisis GOATS(CR7 Vs Messi)</button>
+                <div class="panel">
+                  <p>Analisis de datos de dos leyendas del futbol: Cristiano Ronaldo y Messi.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Futbol/Analisis GOATS(CR7 Vs Messi)" target="_blank">Más Información</a> 
+                </div>
+              </div>
+  
+              <div id="Entretenimiento" class="tabcontent">
+                <h3>Entretenimiento</h3>
+                <p>Analisis de Datos relacionados con el Entretenimiento.</p>
+                <button class="accordion">Netflix</button>
+                <div class="panel">
+                  <p>Analisis de datos de Netflix.</p>
+                  <a href="https://github.com/Gago7/Portafolio/tree/main/Futbol/Entretenimiento/Netflix" target="_blank">Más Información</a> 
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <script src="JS/script -2.js"></script>
+    </body>
+</html>
